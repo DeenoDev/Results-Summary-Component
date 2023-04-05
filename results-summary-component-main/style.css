@@ -119,10 +119,11 @@
 
   @media (min-width: 600px){
     .result-summary {
+      margin-inline: 1rem;
       grid-template-columns: 1fr 1fr;
-    overflow: hidden;
-    border-radius: var(--border-radius); 
-    box-shadow: .5rem 1rem 3rem var(--clr-neutral-hsl-700), .2;
+      overflow: hidden;
+      border-radius: var(--border-radius); 
+      box-shadow: .5rem 1rem 3rem var(--clr-neutral-hsl-700), .2;
   }
 }
 
@@ -142,5 +143,11 @@
   .results {
     border-radius:var(--border-radius);
   }
+}
+
+.grid-flow {
+  display: grid;
+  align-content: start;
+  gap: 1rem;
 }
 
