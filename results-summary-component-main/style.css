@@ -115,14 +115,15 @@
   @media (min-width: 600px){
     .result-summary {
       grid-template-columns: 1fr 1fr;
-    
-    border-radius: 2rem; 
+    overflow: hidden;
+    border-radius: var(--border-radius); 
     box-shadow: .5rem 1rem 3rem var(--clr-neutral-hsl-700), .2;
   }
 }
 
-.resuls {
+.results {
   color: hsl(var(--clr-neutral-hsl-100));
   text-align: center;
   background: var(--gradient-primary);
+  border-radius: var(--border-radius); 
 }
