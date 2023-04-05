@@ -52,6 +52,8 @@
     --fs-700: 1.75rem;
     --fs-800: 2rem;
     --fs-900: 5rem;
+
+    
   }
 
   *,
@@ -108,6 +110,9 @@
   }
 
   .result-summary{
+    --border-radius: 2rem;
+    --padding: 2.5rem;
+
     max-width: 46rem;
     display: grid;
   }
@@ -121,9 +126,15 @@
   }
 }
 
+.results,
+.summary{
+  padding: var(--padding);
+}
+
 .results {
   color: hsl(var(--clr-neutral-hsl-100));
   text-align: center;
   background: var(--gradient-primary);
   border-radius: var(--border-radius); 
 }
+
