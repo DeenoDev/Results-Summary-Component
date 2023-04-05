@@ -117,7 +117,12 @@
       grid-template-columns: 1fr 1fr;
     
     border-radius: 2rem; 
-    box-shadow: .5rem 1rem 3rem var(--clr-neutral-700), .2;
+    box-shadow: .5rem 1rem 3rem var(--clr-neutral-hsl-700), .2;
   }
 }
 
+.resuls {
+  color: hsl(var(--clr-neutral-hsl-100));
+  text-align: center;
+  background: var(--gradient-primary);
+}
