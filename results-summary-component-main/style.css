@@ -135,6 +135,12 @@
   color: hsl(var(--clr-neutral-hsl-100));
   text-align: center;
   background: var(--gradient-primary);
-  border-radius: var(--border-radius); 
+  border-radius: 0 0 var(--border-radius) var(--border-radius); 
+}
+
+@media (min-width: 600px) {
+  .results {
+    border-radius:var(--border-radius);
+  }
 }
 
