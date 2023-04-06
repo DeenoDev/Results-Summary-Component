@@ -188,3 +188,7 @@
   background-color: lightblue;
 }
 
+.summary-item svg {
+  stroke: red;
+}
+
