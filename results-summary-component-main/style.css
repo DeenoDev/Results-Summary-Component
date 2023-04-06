@@ -185,11 +185,16 @@
   align-items: center;
   padding: 1rem;
   border-radius: .5rem;
-  background-color :hsl(var(--clr-accent-1), .1);
+  background-color: hsl(var(--item-color), .1);
 }
 
 .summary-item svg {
   stroke: red;
+}
+
+.summary-item-title {
+  color: hsl(var(--item-color));
+  font-weight: var(--fw-bold);
 }
 
 .flex-group {
@@ -207,5 +212,17 @@
 
 .summary-item[data-item-type="accent-1"] {
   --item-color: var(--clr-accent-1);
+}
+
+.summary-item[data-item-type="accent-2"] {
+  --item-color: var(--clr-accent-2);
+}
+
+.summary-item[data-item-type="accent-3"] {
+  --item-color: var(--clr-accent-3);
+}
+
+.summary-item[data-item-type="accent-4"] {
+  --item-color: var(--clr-accent-4);
 }
 
