@@ -127,14 +127,12 @@
   }
 }
 
-.results,
-.summary{
-  padding: var(--padding);
-}
+
 
 .results {
   color: hsl(var(--clr-neutral-hsl-100));
   text-align: center;
+  padding: var(--padding) calc(var(--padding) * 1.5);
   background: var(--gradient-primary);
   border-radius: 0 0 var(--border-radius) var(--border-radius); 
 }
@@ -177,6 +175,10 @@
   color: var(--clr-neutral-100);
   font-size: var(--fs-700);
   font-weight: var(--fw-bold);
+}
+
+.summary{
+  padding: var(--padding);
 }
 
 .summary-item {
@@ -228,6 +230,11 @@
 
 .summary-score {
   font-weight: var(--fw-black);
-  color: hsl(var(--clr-neutral-hsl-700), );
+  color: hsl(var(--clr-neutral-hsl-700), .5 );
 }
+
+.summary-score span {
+  color: var(--clr-neutral-700);
+}
+
 
