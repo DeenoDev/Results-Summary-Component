@@ -226,3 +226,8 @@
   --item-color: var(--clr-accent-4);
 }
 
+.summary-score {
+  font-weight: var(--fw-black);
+  color: hsl(var(--clr-neutral-hsl-700), );
+}
+
